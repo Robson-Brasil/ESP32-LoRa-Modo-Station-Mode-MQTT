@@ -1,0 +1,8 @@
+# Build artifacts
+build/
+*.bin
+*.elf
+
+# IDE
+.vscode/
+*.code-workspace
