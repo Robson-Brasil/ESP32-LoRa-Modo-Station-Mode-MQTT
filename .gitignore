@@ -2,7 +2,51 @@
 build/
 *.bin
 *.elf
+*.hex
 
 # IDE
 .vscode/
 *.code-workspace
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Caches
+__pycache__/
+.pio/
+.cache/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+/tmp/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Archives
+*.zip
+*.rar
+*.tar
+*.gz
+*.7z
+
+# Audio
+*.mp3
+*.wav
+
+# Dependencies
+node_modules/
+
+# Hermes (se tiver algo sensível)
+.hermes/
+
+# PlatformIO
+.pioenvs/
+.piolibdeps/
